@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicons -->
+    <link href="img/sangananprayog_1.jpeg" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/widescreen.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/fb55b35c3b.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Sanganan Prayog | HOME </title>
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav id="navbar" class="bg-dark">
+        <h1 class="logo text-primary">
+            <span>
+                <i class="fas fa-satellite"></i>  SANGANAN </span>
+            <span>PRAYOG</span>
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#who">Blog</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#home">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+    <!-- Header: Showcase -->
+    <header id="showcase">
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="./img/showcase.jpg" class="fullscreen-bg_video">
+                <source src="./img/sun_earth.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="showcase-content">
+            <div class="logo_sp">
+                <img id="logo_img" src="./img/sangananprayog.png" alt="Sanganan Prayog Team">
+            </div>
+            <h1 class="l-heading">
+                The Sky is The Limit
+            </h1>
+            <div id="lead" class="lead" style="size: 2rem;">
+                "If you want to shine like a sun, first burn like a sun." <br>- Dr. APJ Abdul Kalam
+
+            </div>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!-- Section: What we do -->
+    <section id="what" class="bg-dark py-1">
+        <div class="container">
+
+            <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+
+        </div>
+        <div class="items">
+            <div class="item">
+                <i class="fas fa-bullseye fa-2x"></i>
+                <div>
+                    <h3 class="text-primary">Mission</h3>
+                    <p>Innovation,passion and commitment towards the popularization of astronomy and space sciences amongst all,to
+                        spread knowledge of astronomy and explain everything that we observe in the universe, from the comets and planets in our solar
+                    system to distant galaxies, and at the same time it also aims at creating projects which would help us in the near future.</p>
+                </div>
+
+            </div>
+            <div class="item">
+                <i class="fas fa-book-reader fa-2x"></i>
+                <div>
+                    <h3 class="text-primary">Values and ethics</h3>
+                    <p>Ethics are universal and the universe is an organised chaos. We at sanganan prayag inculcate in our team and its
+                    works, values that helps us see life as fascinating as a orion on an october night. Sustainable future requires
+                    more than technology. Harmony is the way.</p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fas fa-atom fa-2x"></i>
+                <div>
+                    <h3 class="text-primary">Inspiration</h3>
+                    <p>On a more pressing level, astronomy helps us study how to prolong the survival of our species,
+                        it's critical to study the Sun's influence on Earth's climate and how it will affect weather,
+                        water levels etc, Knowing and understanding the stage on which our life is being played is
+                        crucial for any existence to have real meaning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Who We Are -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+            <p>ISRO's first Space Technology Incubation Centre (S-TIC) in India was inaugurated at NIT Agartala on September 18, 2018.
+                Sri Ganesh had a passion for space technology and astronomy.Fast forward one year, Space Technology Club,
+                Sanganan Prayog was founded by him. Within two months, we had our college Tech Fest,and we had to prove ourselves.
+                A team of highly dedicated students made ten fully functional projects within a span of two months.
+                We had the best people, Dr.Srimathy Kesan, Founder of Space Kidz India and Aryan Mishra, India's youngest astronomer,
+                among us during the Tech Fest.Now, we have eight ongoing ISRO projects at NIT Agartala.
+                First a dream, then a little action and lo! You're on your way to achieving your dreams.
+
+
+            </p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li><span class="text-primary">DIRECTOR: </span> Prof. H.K. Sharma </li>
+                <li><span class="text-primary">FACULTY ADVISOR: </span> Dr. Mrinmoy Majumder </li>
+                <li><span class="text-primary">PRESIDENT: </span> Sri Ganesh </li>
+                <li><span class="text-primary">VICE-PRESIDENT: </span> Antaripa Saha </li>
+                <li><span class="text-primary">GENERAL SECRETARY: </span> Manohar </li>
+                <!-- <li class="text-primary">STUDENT ADVISOR
+                    <li> Prakash Devapujyala</li>
+                    <li> Bharath Bhusan</li>
+                </li> -->
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="text-projects">
+            <h2><span style="color: blue;">OUR</span>  PROJECTS</h2>
+        </div>
+        <!-- <div class="slider slider-1">
+            <div class="photos">
+              <img src="Projects/1.png" class="shown" alt="">
+              <img src="Projects/2.png" alt="">
+              <img src="Projects/3.png" alt="">
+              <img src="Projects/4.png" alt="">
+              <img src="Projects/11.png"  alt="">
+              <img src="Projects/12.png" alt="">
+              <img src="Projects/13.png" alt="">
+              <img src="Projects/14.png" alt="">
+              <img src="Projects/15.png"  alt="">
+              <img src="Projects/16.png" alt="">
+              <img src="Projects/17.png" alt="">
+    
+              <div class="buttons">
+                <div class="prev"></div>
+                <div class="next"></div>
+              </div>
+            </div>
+          </div> -->
+          <div class="slider slider-2">
+            <div class="photos">
+                <img src="Projects/1.png" class="shown" alt="">
+                <img src="Projects/2.png" alt="">
+                <img src="Projects/3.png" alt="">
+                <img src="Projects/4.png" alt="">
+                <img src="Projects/11.png"  alt="">
+                <img src="Projects/12.png" alt="">
+                <img src="Projects/13.png" alt="">
+                <img src="Projects/14.png" alt="">
+                <img src="Projects/15.png"  alt="">
+                <img src="Projects/16.png" alt="">
+                <img src="Projects/17.png" alt="">
+              <div class="buttons">
+                <div class="prev"></div>
+                <div class="next"></div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+    <!-- Section: Clients -->
+    <section id="clients" class="bg-dark py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">SUPPORTING</span> MEMBERS
+            </h2>
+            <div class="items py-1">
+                <div><img src="./img/nasa.png" alt="Client"></div>
+                <div><img src="./img/space_kidz.png" alt="Client"></div>
+                <div><img src="./img/space_sth.png" alt="Client"></div>
+                <div><img src="./img/spark.png" alt="Client"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-dark p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-light">
+            </form>
+        </div>
+        <div id="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; SANGANAN PRAYOG. All Rights Reserved, 2020- Present</p>
+            <div class="social">
+                <a href="https://github.com/jash-maester"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/jash-maester-175a15197/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/jash.acharjee.23/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCJW3jFzCIXEtMN1aIE_mdrw"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Local JS -->
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+    <!-- Google Maps
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0JOI8skGk-r711vGKOjHydUiSO_oprDg&callback=initMap" async defer></script> -->
+</body>
+
+</html>
+
+<!-- AIzaSyD0JOI8skGk-r711vGKOjHydUiSO_oprDg -->
