@@ -275,6 +275,7 @@ p {
     background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
+
 /* projects */
 
 #projects{
@@ -316,12 +317,11 @@ p {
     opacity: 1;
 }
 
-.prev:before,
-.next:before {
+.prev:before, .next:before {
   color: #fff;
-  font-size: 100px;
+  font-size: 60px;
   position: absolute;
-  top: 35%;
+  top: 38%;
   cursor: pointer;
 }
 
@@ -335,10 +335,18 @@ p {
   right: 0;
 }
 
+.slider {
+    transition: transform .2s;
+}
+  
+.slider:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+  
 
 /*Section: Clients */
-
-
 
 #clients .items {
     display: flex;
