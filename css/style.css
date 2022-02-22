@@ -363,7 +363,8 @@ p {
 }
 
 .img-event{
-    width: 194px;
+    width: 198px;
+    height: 250px;
     margin: 5px;
     border-radius: 16px;
     border: 6px solid black;
