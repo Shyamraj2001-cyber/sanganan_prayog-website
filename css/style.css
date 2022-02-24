@@ -172,6 +172,18 @@ p {
     color: #dee2e6;
 }
 
+.btn-secondary{
+    background-color: rgb(52, 58, 64) ;
+    border-color: rgb(52, 58, 64) ;
+    margin: 0px;
+}
+
+.btn-secondary:hover{
+    background: #198754;
+    border-radius: 25px;
+    transition: all;
+    transition-duration: 1s;
+}
 
 /* Showcase */
 
