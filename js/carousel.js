@@ -12,7 +12,7 @@ $(function() {
         btnPrev: '.slider-2 .buttons .prev',
         btnNext: '.slider-2 .buttons .next',
         auto: true,
-        rate: 3000
+        rate: 3300
     });
 });
 
